@@ -15,7 +15,7 @@
               sha256 = "sha256-wwK9hLSKVu8bDwM+jpOg2lWQ+ASC6uFy22Ew2gNTFKY=";
             };  
             installPhase = finalAttrs.installPhase + ''
-            echo '-javaagent:${(final.callPackage ./jetbrains-agent.nix { })}/ja-netfilter/ja-netfilter.jar'>> $out/idea-ultimate/bin/idea64.vmoptions
+            echo '-javaagent:${(final.callPackage ./jetbrains-agent.nix { })}/ja-netfilter/ja-netfilter.jar=jetbrains'>> $out/idea-ultimate/bin/idea64.vmoptions
             '';
           });
         };
