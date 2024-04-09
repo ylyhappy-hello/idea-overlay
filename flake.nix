@@ -10,7 +10,7 @@
       in
         final: prev: {
           jetbrains-idea-ultimate-d = prev.jetbrains.idea-ultimate.overrideAttrs (finalAttrs: {
-            src = finalAttrs.fetchurl {
+            src = fetchurl {
               url = "https://download.jetbrains.com/idea/ideaIU-${version}.tar.gz";
               sha256 = "";
             };  
