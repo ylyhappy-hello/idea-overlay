@@ -12,7 +12,7 @@
           jetbrains-idea-ultimate-d = prev.jetbrains.idea-ultimate.overrideAttrs (finalAttrs: {
             src = prev.fetchurl {
               url = "https://download.jetbrains.com/idea/ideaIU-${version}.tar.gz";
-              sha256 = "";
+              sha256 = "sha256-wwK9hLSKVu8bDwM+jpOg2lWQ+ASC6uFy22Ew2gNTFKY=";
             };  
             installPhase = finalAttrs.installPhase + ''
             echo '
