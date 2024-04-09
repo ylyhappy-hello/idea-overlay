@@ -6,11 +6,11 @@
 
     let
       overlay =
-      let             version = "2022.3.3";
+      let version = "2022.3.3";
       in
         final: prev: {
           jetbrains-idea-ultimate-d = prev.jetbrains.idea-ultimate.overrideAttrs (finalAttrs: {
-            src = fetchurl {
+            src = self.fetchurl {
               url = "https://download.jetbrains.com/idea/ideaIU-${version}.tar.gz";
               sha256 = "";
             };  
