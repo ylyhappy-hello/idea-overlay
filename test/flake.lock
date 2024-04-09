@@ -24,11 +24,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1712655220,
-        "narHash": "sha256-F1bRLV3KNt3hgXyzORYAIuNbSupjpm5VrPeLFp5GakA=",
+        "lastModified": 1712656200,
+        "narHash": "sha256-tZC7wjVJfh/jjCKti4aQOF7gtgz5E6ADGEc21Mfd0xc=",
         "owner": "ylyhappy-hello",
         "repo": "idea-overlay",
-        "rev": "29d42aafa7d56585569cdb768ab8333f48ca9abc",
+        "rev": "4e9db108795c405880b8126a055bcbb098269480",
         "type": "github"
       },
       "original": {
