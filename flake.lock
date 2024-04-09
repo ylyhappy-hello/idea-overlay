@@ -18,7 +18,39 @@
         "type": "github"
       }
     },
+    "idea": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1712647476,
+        "narHash": "sha256-wnIR+H8v07IeptDy5uBoDvWkrsizRS8jwW/BSXJvGzE=",
+        "owner": "ylyhappy-hello",
+        "repo": "idea-overlay",
+        "rev": "e823af74577e6f9276616c8888499955ccab90e5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ylyhappy-hello",
+        "repo": "idea-overlay",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
+      "locked": {
+        "lastModified": 1701282334,
+        "narHash": "sha256-MxCVrXY6v4QmfTwIysjjaX0XUhqBbxTWWB4HXtDYsdk=",
+        "path": "/nix/store/j8han9cf3g8vba52yhiklaa6a500pcbv-source",
+        "rev": "057f9aecfb71c4437d2b27d3323df7f93c010b7e",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "nixpkgs_2": {
       "locked": {
         "lastModified": 1701282334,
         "narHash": "sha256-MxCVrXY6v4QmfTwIysjjaX0XUhqBbxTWWB4HXtDYsdk=",
@@ -33,8 +65,8 @@
     },
     "root": {
       "inputs": {
-        "flake-utils": "flake-utils",
-        "nixpkgs": "nixpkgs"
+        "idea": "idea",
+        "nixpkgs": "nixpkgs_2"
       }
     },
     "systems": {
